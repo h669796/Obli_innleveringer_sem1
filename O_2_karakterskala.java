@@ -16,7 +16,7 @@ public class O_2_karakterskala {
 				int poengsum = Integer.parseInt(showInputDialog("Skriv inn poengsummen din"));
 		        String karakter = "Ugyldig poengsum"; // original meaning 
 
-		        if (poengsum <= 39) 
+		        if (poengsum <= 39 && poengsum >= 0) 
 		        	karakter = "F"; // endrer "karakter" definisjonen underveis som vi får definerte poengsummer
 
 		        if (poengsum >= 40 && poengsum <= 49) 
